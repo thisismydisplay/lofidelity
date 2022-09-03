@@ -22,6 +22,7 @@ ssh ubuntu@lofidelity.thisismydisplay.com '
     cd /app/lofidelity
     docker compose build
     docker compose run --rm node_build
+    docker compose run --rm app flask db upgrade
     docker compose run --rm app flask db migrate
     docker compose up -d --force-recreate --remove-orphans
 '
