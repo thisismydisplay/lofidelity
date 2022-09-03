@@ -1,6 +1,5 @@
 {
     email {$MY_EMAIL}
-    acme_ca https://acme-staging-v02.api.letsencrypt.org/directory
 }
 
 lofidelity.thisismydisplay.com {
