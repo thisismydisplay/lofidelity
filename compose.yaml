@@ -22,7 +22,7 @@ services:
       S3_BUCKET: ${S3_BUCKET}
       S3_KEY: ${S3_KEY}
       S3_SECRET: ${S3_SECRET}
-      GUNICORN_CMD_ARGS: "--bind=0.0.0.0:5000"
+      # GUNICORN_CMD_ARGS: "--bind=0.0.0.0:5000"
     build:
       context: .
       dockerfile: Dockerfile
