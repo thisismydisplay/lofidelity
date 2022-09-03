@@ -1,5 +1,5 @@
 #!/bin/bash
-# set -euxo pipefail
+set -euxo pipefail
 
 # Borrowed from
 # https://community.netlify.com/t/support-guide-using-an-ssh-key-via-environment-variable-during-build/2457/3
