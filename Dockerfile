@@ -41,7 +41,7 @@ RUN pip install psycopg2
 # closing command to gunicorn app:app
 
 ## gunicorn app folder : app instance
-CMD gunicorn app:app --bind=0.0.0.0:5000
+CMD gunicorn app:app
 
 ## NOTE: gunicorn is a WSGI (web server gateway interface)
 ## WSGI serves flask, so flask can run in production because flask
