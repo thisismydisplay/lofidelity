@@ -31,6 +31,8 @@ COPY /react-app/build/* app/static/
 # Run the next two python install commands with PIP
 # install -r requirements.txt
 # install psycopg2
+RUN pip install pipenv && pipenv requirements > requirements.txt
+
 RUN pip install -r requirements.txt
 RUN pip install psycopg2
 
